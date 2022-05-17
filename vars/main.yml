@@ -1,0 +1,7 @@
+---
+# vars file for cosign
+cosign_platform: '{{ cosign_os }}-{{ cosign_arch }}'
+cosign_url: '{{ cosign_mirror }}/v{{ cosign_ver }}/cosign-{{ cosign_platform }}{{ cosign_dotexe | default("") }}'
+cosign_exe: '{{ cosign_install_dir }}/cosign-{{ cosign_ver }}-{{ cosign_platform }}{{ cosign_dotexe | default("") }}'
+cosign_link: '{{ cosign_install_dir }}/cosign'
+cosign_checksum: '{{ cosign_checksums[cosign_ver][cosign_platform] }}'

@@ -1,0 +1,25 @@
+---
+# defaults file for cosign
+cosign_ver: 1.8.0
+cosign_os: linux
+cosign_arch: amd64
+cosign_install_dir: /usr/local/bin
+cosign_mirror: https://github.com/sigstore/cosign/releases/download
+cosign_checksums:
+  '1.8.0':
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-darwin-amd64
+    darwin-amd64: sha256:78ea0bbbbd851c7e7b407c7b784c5857709be5e680be77b44b32d7e716695b41
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-darwin-arm64
+    darwin-arm64: sha256:50e151ae242e663b51aa109a9d74849f3e235a8b7d33293fb80d784ffceb807f
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-amd64
+    linux-amd64: sha256:5682ad5a0262a4b51883c76d2134f036f2c5ac0b1e3ee8f37b78a45e296e09f6
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-arm
+    linux-arm: sha256:3504f5ff57dc8aeba508a96e2618f800af379d370a4c86d626c5d69ff5b52237
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-arm64
+    linux-arm64: sha256:285da80143c84483bee92471f25b36f0310d7e28688741d37ceeec53214a183b
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:f2e023df018a8fe89f304845113a8495e95acc53581fea8d29d4d3146f825a49
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-linux-s390x
+    linux-s390x: sha256:2c832cffddbd363d9e96a905d671d29dd16c4da3ce59f2f6ccba50d82c6dff98
+    # https://github.com/sigstore/cosign/releases/download/v1.8.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:d274f4baa3ebd11308c8486379759c96071ae58c852078fff0e4952205d92f00
