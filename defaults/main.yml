@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 1.13.1
+cosign_ver: 2.1.1
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -127,3 +127,22 @@ cosign_checksums:
     linux-s390x: sha256:6ca3d1739910bb0f7cce57c9ebf44b6fefd66e07810ad0e506d622cf85af134f
     # https://github.com/sigstore/cosign/releases/download/v1.13.1/cosign-windows-amd64.exe
     windows-amd64: sha256:78a2774b68b995cc698944f6c235b1c93dcb6d57593a58a565ee7a56d64e4b85
+  '2.1.1':
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-darwin-amd64
+    darwin-amd64: sha256:5b7b4db7dbd7c19ce89d24a484627dc96fadd2632b033fe9a1f8005c29dbe84e
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-darwin-arm64
+    darwin-arm64: sha256:4339a0af0059ddc4a7af7c218dcaaa1496948563f5915a7773aadb085a7eea0e
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-amd64
+    linux-amd64: sha256:84a859fb654e2c2c0cbc6433a8195fef60bccd16b4cf412f486c2c67d4b91241
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-arm
+    linux-arm: sha256:eaa140eaa0490be8c2fd5ef754ad9855a91ef3f3abc49811cf214f7ef7466963
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-arm64
+    linux-arm64: sha256:563ae4c2f03dd70a9b90e4058cdf14b3e33aa77d9dc6276ecb97473513c238f8
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:f96314e8e215d5e28c924200520a3c104a9beb78f7099fc6593be2ddbfaf7135
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-riscv64
+    linux-riscv64: sha256:18e94295df6ad9bd617654cfcf77b2c9bc44e87c870ccf12e481dabe69b7f32b
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-linux-s390x
+    linux-s390x: sha256:38d20c4de437b0bc7c9c21e826665b273ff2877aadb074fb0b912fc9c2b8ec3c
+    # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:786b8fb477859817b4b4270a4b198ff35009fb78698eb7c479bee8d43ee81371
