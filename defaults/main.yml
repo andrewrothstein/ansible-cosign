@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.1.1
+cosign_ver: 2.2.0
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -146,3 +146,22 @@ cosign_checksums:
     linux-s390x: sha256:38d20c4de437b0bc7c9c21e826665b273ff2877aadb074fb0b912fc9c2b8ec3c
     # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-windows-amd64.exe
     windows-amd64: sha256:786b8fb477859817b4b4270a4b198ff35009fb78698eb7c479bee8d43ee81371
+  '2.2.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-darwin-amd64
+    darwin-amd64: sha256:a2eea673456929a3f3809b492691183d9af0ea4216ac07410290bff76494cba4
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-darwin-arm64
+    darwin-arm64: sha256:b4d323090efb98eded011ef17fe8228194eed8912f8e205361aaec8e6e6d044a
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-amd64
+    linux-amd64: sha256:5e4791fb7a5efaaa98da651534789ec985ce8ac9c31910a810fc249f86ba2ef9
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-arm
+    linux-arm: sha256:9be68975086667e124fea658c5e931629b36a9336f4fe85cb9e662e6b8b42c6f
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-arm64
+    linux-arm64: sha256:5adbb7b1d38ac19a15c6bd9a61725baa16f61e23611534eb5e6d377dc024e102
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:dd2d91605dfdd4e75949a3f354c111790777109384f67d694baed7412f8feb7d
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-riscv64
+    linux-riscv64: sha256:84b660e80da5b8b10d3a96ed86698c74bf709485d2470f7af875cd24e71c791c
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-linux-s390x
+    linux-s390x: sha256:af0be7e5cf903665502848e01d3b1a44efedbca4e23dbb31ad35790fd4d36c29
+    # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:d154ecec14fa33dc488a41f7cfd2063c99de40837f60f0af850d4f11355be6f0

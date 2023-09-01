@@ -7,4 +7,4 @@
     register: cosign_test_output
   - name: cosign version
     debug:
-      msg: '{{ cosign_test_output.stderr }}'
+      msg: '{{ cosign_test_output.stdout }}'
