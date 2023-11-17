@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.2.0
+cosign_ver: 2.2.1
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -165,3 +165,22 @@ cosign_checksums:
     linux-s390x: sha256:af0be7e5cf903665502848e01d3b1a44efedbca4e23dbb31ad35790fd4d36c29
     # https://github.com/sigstore/cosign/releases/download/v2.2.0/cosign-windows-amd64.exe
     windows-amd64: sha256:d154ecec14fa33dc488a41f7cfd2063c99de40837f60f0af850d4f11355be6f0
+  '2.2.1':
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-darwin-amd64
+    darwin-amd64: sha256:f1a948cded75e0858e739d90604e2a7e4d2f3fda15bfef12c0c03726567443bc
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-darwin-arm64
+    darwin-arm64: sha256:a9ca33020c41ad245ec595c7097c9280e29e5afdd95ab19359a65d6e1a756777
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-amd64
+    linux-amd64: sha256:f6c24066e7f75221c4b7f309b8322d7d42a1d96470e0440e6e357fe43661d81f
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-arm
+    linux-arm: sha256:8ceaffbde4970338b51b77a4a6321348e47c7d27bd19f7f502768f8208f5b8e2
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-arm64
+    linux-arm64: sha256:8c04e9877fb6e3a96a3916d4dfa855a493c418ace5d5ec4dba6a249490f888d1
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:a6f86fc0d88671cc166fd74bd296a4385c29d3509f19c9d31241892f5cc77f58
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-riscv64
+    linux-riscv64: sha256:7fe96caf5e9a711753b44f327cf6bc3c339d0392cbbcc023a9c91db18e3d1898
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-linux-s390x
+    linux-s390x: sha256:f129454b3c843c835afec187b0b7e5b5bc5354688ae57d7ed67426ed561a968a
+    # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:88eea88aff14bc42cc00b9212b4cee7a20779836731bf83768cc1d9006cf386d
