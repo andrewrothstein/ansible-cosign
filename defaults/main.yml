@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.2.1
+cosign_ver: 2.2.2
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -184,3 +184,22 @@ cosign_checksums:
     linux-s390x: sha256:f129454b3c843c835afec187b0b7e5b5bc5354688ae57d7ed67426ed561a968a
     # https://github.com/sigstore/cosign/releases/download/v2.2.1/cosign-windows-amd64.exe
     windows-amd64: sha256:88eea88aff14bc42cc00b9212b4cee7a20779836731bf83768cc1d9006cf386d
+  '2.2.2':
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-darwin-amd64
+    darwin-amd64: sha256:e3d43db982b642be15a622e3791480620f5e7f2e902ab0c9e2db21daaa36259e
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-darwin-arm64
+    darwin-arm64: sha256:7874404ce8a9b29251ff485c6ecb46ecfebd6b1f5fa3cb6cd0b9bf2c75bab2d5
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-amd64
+    linux-amd64: sha256:121ba0031827c090364894688049651d3a0a82a87235c469322a202aa2944211
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-arm
+    linux-arm: sha256:46e1a98be7f1cbf8fe89ba3523a880444c2ba3cb0eea74c6ed1514b6db2555f9
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-arm64
+    linux-arm64: sha256:82eb62be7e1b7924db193d4a4a496eca94510df2961d88406ba07fb3435f6e8f
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:8c930f4a959c1cafa179a8ee589194f5dc23547c5ce60b1fa265d720e177c62f
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-riscv64
+    linux-riscv64: sha256:8ea4432d56ded365dbb69056df29c475cc4a3ab195e0b6a083bbf9a7318df5fe
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-linux-s390x
+    linux-s390x: sha256:466a4bb0bbb1e524c5136d174de894da3042e3ea9e29ae034185dc62a5a49044
+    # https://github.com/sigstore/cosign/releases/download/v2.2.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:c33f389596f7763ef19674e6d5792c45d38d7b48c832955aa94eb17f12f2931e
