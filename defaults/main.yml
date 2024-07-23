@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.2.4
+cosign_ver: 2.3.0
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -241,3 +241,22 @@ cosign_checksums:
     linux-s390x: sha256:f1695b522e2af1b022a340a139c59dcf2bd4a732b2363576b72e5b5d10637275
     # https://github.com/sigstore/cosign/releases/download/v2.2.4/cosign-windows-amd64.exe
     windows-amd64: sha256:9e9b71bd3fa2a6abfa903b5f784d9ca0fbc29c563d2b084c1a82c593c2bab001
+  '2.3.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-darwin-amd64
+    darwin-amd64: sha256:e27ab52f5aec186e3b9665e9af40aa3dbf9c5a637ef1b6f763020c684f90b0dd
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-darwin-arm64
+    darwin-arm64: sha256:4b2d7970ebcdb64f635641063ca35f981887b7718161d80b63dcd8072184d269
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-amd64
+    linux-amd64: sha256:5985b6ebbda2dd5aec4bd8c49e084393147d19170e7f7f4c30e664939e6972bf
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-arm
+    linux-arm: sha256:908912c5ab783cf3ac62fed6176f57c40934057636dd3c8626332de9212978af
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-arm64
+    linux-arm64: sha256:a4fae91128b136535fe3a12a7c1ccd3ce9f711d69d61ce94994ba34505ab017d
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:4309fd2babbd4e340cad21da74d06528e569b7e842aa6d207e0400c1d591c9d2
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-riscv64
+    linux-riscv64: sha256:fdfeccdcd8109660b3885e39ddb50b8881c35f7ec608b3d95ccd5c70f1d2c7fa
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-linux-s390x
+    linux-s390x: sha256:4bb5708caf6bcdc8be86c841aa4b4662345f675063a2f07d473eea6891c02a12
+    # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:7e91fd101df73601b93061bc39de734cdcaa26345d3bd8f925e0b53166dc0220
