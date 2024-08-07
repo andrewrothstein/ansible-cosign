@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.3.0
+cosign_ver: 2.4.0
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -260,3 +260,22 @@ cosign_checksums:
     linux-s390x: sha256:4bb5708caf6bcdc8be86c841aa4b4662345f675063a2f07d473eea6891c02a12
     # https://github.com/sigstore/cosign/releases/download/v2.3.0/cosign-windows-amd64.exe
     windows-amd64: sha256:7e91fd101df73601b93061bc39de734cdcaa26345d3bd8f925e0b53166dc0220
+  '2.4.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-darwin-amd64
+    darwin-amd64: sha256:4d568e3bf56d254948a749d1442eedb6dc624af0a1acea082e260ba66b9feb08
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-darwin-arm64
+    darwin-arm64: sha256:779f57759a9863dacea1256fa7f116319790dfcd4f9f8b33abc30251b1f4a883
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-amd64
+    linux-amd64: sha256:cd7636b3586a3bdac2d9c8f3b421ed119edcb20499107887fd929211110e8418
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-arm
+    linux-arm: sha256:b662538e82e872d8865dd7fde8b5f24950eec1b9fe0c0c6d734d31220c0e52f2
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-arm64
+    linux-arm64: sha256:e9db44c01057395230d0454144c676e7231bff08249620b0170ea19ff201de94
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:eab6053f52141474c143d7a3430514bbe6e96eb22e0ca412bc7092399c6b0a9e
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-riscv64
+    linux-riscv64: sha256:7c63fe617f3e7d370f38ed9dffffc7d8723ec82b2ff66d3b80f702ed5762fc97
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-linux-s390x
+    linux-s390x: sha256:5435ebbfbceb5b639ccc96039b39466b13547473f9ee5eae9a8b425ba6463118
+    # https://github.com/sigstore/cosign/releases/download/v2.4.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:88f1addbae6bdd83ec2c067470c1f56b6d0d3ba35f49ad34603f2502cb2933f3
