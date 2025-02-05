@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.4.1
+cosign_ver: 2.4.2
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -298,3 +298,22 @@ cosign_checksums:
     linux-s390x: sha256:6db953a866409ec0272442161da8410f6ceb2634e4d8353e6739037b210fdac1
     # https://github.com/sigstore/cosign/releases/download/v2.4.1/cosign-windows-amd64.exe
     windows-amd64: sha256:8d57f8a42a981d27290c4227271fa9f0f62ca6630eb4a21d316bd6b01405b87c
+  '2.4.2':
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-darwin-amd64
+    darwin-amd64: sha256:2697aba2d9ea5159b8f209025cfc392a8a25ce177c8d3b0e07afd4e1db3b163c
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-darwin-arm64
+    darwin-arm64: sha256:f9a574c1ab208918a0d96ffca7a105dfb32792f6c33e0da2dbefb76e25600ab8
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-amd64
+    linux-amd64: sha256:e7f5bd99a790703333e8f8e8e6c91d5e646f3d7041e4cf935b56587de20cec3f
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-arm
+    linux-arm: sha256:c626df51f614085322ce66bc1c06f159d6b17669113013f0014bda8c34c741f5
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-arm64
+    linux-arm64: sha256:9ab2a932190161d67b9fcda81777e28086b2152c7d506a0e2f83dbb3fd7e2b1c
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:efafe3031387bdb8fa14c5075444f0cbf37e9c40fecd728787eda5bf5e429549
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-riscv64
+    linux-riscv64: sha256:4680ea9dfa4f6636989c03b5d4e889c8a0584bd34c18e885d6fd06460c56b8a0
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-linux-s390x
+    linux-s390x: sha256:2fd1cf4a8d27678bdce9f6d4944f6a00f862bcd96c3cf494e91032c1c98e0e6c
+    # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:996e6b5e0ca712c3a2c0e182aee957b85df1eba69babaae8a6349c0bce0088db
