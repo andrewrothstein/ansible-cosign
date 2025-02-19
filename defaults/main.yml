@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.4.2
+cosign_ver: 2.4.3
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -317,3 +317,22 @@ cosign_checksums:
     linux-s390x: sha256:2fd1cf4a8d27678bdce9f6d4944f6a00f862bcd96c3cf494e91032c1c98e0e6c
     # https://github.com/sigstore/cosign/releases/download/v2.4.2/cosign-windows-amd64.exe
     windows-amd64: sha256:996e6b5e0ca712c3a2c0e182aee957b85df1eba69babaae8a6349c0bce0088db
+  '2.4.3':
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-darwin-amd64
+    darwin-amd64: sha256:98a3bfd691f42c6a5b721880116f89210d8fdff61cc0224cd3ef2f8e55a466fb
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-darwin-arm64
+    darwin-arm64: sha256:edfc761b27ced77f0f9ca288ff4fac7caa898e1e9db38f4dfdf72160cdf8e638
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-amd64
+    linux-amd64: sha256:caaad125acef1cb81d58dcdc454a1e429d09a750d1e9e2b3ed1aed8964454708
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-arm
+    linux-arm: sha256:729d18ef31679dd2d6be1aaffcb122f31edb4ed04dedceb409e8104adf49507a
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-arm64
+    linux-arm64: sha256:bd0f9763bca54de88699c3656ade2f39c9a1c7a2916ff35601caf23a79be0629
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-ppc64le
+    linux-ppc64le: sha256:deeca793f9b2136a6bb0b3ec5895a9e3ca12181c1f03445a1b3394adf5d8f325
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-riscv64
+    linux-riscv64: sha256:f1831e9be42bb9345d2fd9151ce5621de0c8b46e559cc53e9fd76444308df0cb
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-linux-s390x
+    linux-s390x: sha256:39091d2c611398c8b7c11fa5db447d0c0ff5eca8117fe11dff4fb8a26d1b20cf
+    # https://github.com/sigstore/cosign/releases/download/v2.4.3/cosign-windows-amd64.exe
+    windows-amd64: sha256:a2ac24e197111c9430cb2a98f10a641164381afb83df036504868e4ea5720800
