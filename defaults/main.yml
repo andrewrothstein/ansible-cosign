@@ -1,6 +1,6 @@
 ---
 # defaults file for cosign
-cosign_ver: 2.5.0
+cosign_ver: 3.1.4
 cosign_arch_map:
   aarch64: arm64
   arm64: arm64
@@ -59,6 +59,23 @@ cosign_checksums:
     linux-s390x: sha256:c1c786cb3450c4ec299167fedd1eb705acb5fe2d7d5938f604d4392281451d0c
     # https://github.com/sigstore/cosign/releases/download/v1.10.0/cosign-windows-amd64.exe
     windows-amd64: sha256:26b3e2f529608017e320b11741ad7421ca5a77d4e98d976016c1d1fa4d37558b
+  '1.10.1':
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-darwin-amd64
+    darwin-amd64: sha256:e2a94f47852a86b4ebc97df96af1c18e7dec1cb846250784cf380d5da6924502
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-darwin-arm64
+    darwin-arm64: sha256:02d616e499c713dc391ae613664a558e215983810d4ac0a7d292567e3512c057
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-amd64
+    linux-amd64: sha256:ed6f6eb9e1ba9132f636fc62e4d2a171ddb7643dc7113a00f74614aafca53a2a
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-arm
+    linux-arm: sha256:ffe880ea87e70e81c88b011904bb74cc72502bbe1597e40ce11fe7e5ee4a2547
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-arm64
+    linux-arm64: sha256:d9eea27800088c04379065d5ce5f325a3b2394c08725f379bb3ed2e38346c4b5
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:1760506ac3aab88142dc0748ff8404746b0cccc714545064bb282cacf8249156
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-linux-s390x
+    linux-s390x: sha256:1f51314bfe28e628c88c7806eae912bacb6b18663561fd17875cfc7321a13e75
+    # https://github.com/sigstore/cosign/releases/download/v1.10.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:42d79c9ea55e79e39fd050b36b29d53e6561a3333278092be5f9448f52c6051c
   '1.11.0':
     # https://github.com/sigstore/cosign/releases/download/v1.11.0/cosign-darwin-amd64
     darwin-amd64: sha256:6aea1e357418b747d2880c64b17a36a94a35c9d9e561f9876fbbcac7f578c1f9
@@ -76,6 +93,23 @@ cosign_checksums:
     linux-s390x: sha256:0f0cdffa5091c63b9abbcc1f3a1e0a7919a8fd10f235cb4bec70341ae91aac5b
     # https://github.com/sigstore/cosign/releases/download/v1.11.0/cosign-windows-amd64.exe
     windows-amd64: sha256:8cd279e44802f82d4ff833097e8dde4375446cb04ff7ca70ad0f152cc38bc285
+  '1.11.1':
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-darwin-amd64
+    darwin-amd64: sha256:a2b5aa3d82cf845c137d3da29aac33557767575967ec8683d673ef6c0116803d
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-darwin-arm64
+    darwin-arm64: sha256:d9ec1d1dd722a5cc62ece8ec0832ada0645f48d3d4b8858874d8cad96a15bf2a
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-amd64
+    linux-amd64: sha256:4d9e4a8e79b714039b272ef89ae29bc45b32e585b6010a5b9048da14d93cfd5f
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-arm
+    linux-arm: sha256:8568c6bcafe0dc230c75654ac2b5d4379a72738df1377b95cd0d48e3f1d7bc1d
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-arm64
+    linux-arm64: sha256:9fb8b494edb4b95caa9b822d2910460e40b16bc90b9477a2af2bcfba0bb9982f
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:45a656f77408ae0bd40fb4018d0d9b75f9d7d0496627b232c493395c58362e7f
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-linux-s390x
+    linux-s390x: sha256:dadd46841d0dd4434826bfea575d15ecc623e2f8638aa87fa15b7650d3ee4083
+    # https://github.com/sigstore/cosign/releases/download/v1.11.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:750e1b9e383d5d1f9782176a63121c4f310ad4cbd2262c8fde6fe4086090c164
   '1.12.0':
     # https://github.com/sigstore/cosign/releases/download/v1.12.0/cosign-darwin-amd64
     darwin-amd64: sha256:49d552a663221015175bf33dbd7bdcdb95bd74763fe3cce0cb60462851461d3b
@@ -93,6 +127,23 @@ cosign_checksums:
     linux-s390x: sha256:5e187d3818fd5333adba7e840092c82fdea3aefd1e460c6b0d61c9b5f2e1b4b1
     # https://github.com/sigstore/cosign/releases/download/v1.12.0/cosign-windows-amd64.exe
     windows-amd64: sha256:68bf2e54c1becd5a0b6b84775b93958abc827dc3f858fa9c65a9ad338fb5c0e3
+  '1.12.1':
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-darwin-amd64
+    darwin-amd64: sha256:87a7e93b1539d988fefe0d00fd5a5a0e02ef43f5f977c2a701170c502a17980d
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-darwin-arm64
+    darwin-arm64: sha256:41bc69dae9f06f58e8e61446907b7e53a4db41ef341b235172d3745c937f1777
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-amd64
+    linux-amd64: sha256:b30fdc7d9aab246bc2f6a760ed8eff063bd37935389302c963c07018e5d48a12
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-arm
+    linux-arm: sha256:a9897bc2b15915ff3ae6a5121d90a6567d4304e31df7db15451f5b4b6c68a46f
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-arm64
+    linux-arm64: sha256:d9ba8512d8dd6cc05b2c626d2e2ec966dd24c5f8ad3b479ae9ab6066c8d9deb7
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:33796b372647b503a5fadc61b277e5697a7f541192c6518505c4682e0287d6f2
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-linux-s390x
+    linux-s390x: sha256:1e91e42e21cd3c31a472e02e56a600e868b3f9ca5815707a5394682a5209719d
+    # https://github.com/sigstore/cosign/releases/download/v1.12.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:cc6018202d69e25050c0da58be032debd9fefe1a06cba1883b0ad607c767352d
   '1.13.0':
     # https://github.com/sigstore/cosign/releases/download/v1.13.0/cosign-darwin-amd64
     darwin-amd64: sha256:87c4f0cbab222c235a446f8675bcee9b2798c53ed00301f4458259a65dbc69a8
@@ -127,6 +178,116 @@ cosign_checksums:
     linux-s390x: sha256:6ca3d1739910bb0f7cce57c9ebf44b6fefd66e07810ad0e506d622cf85af134f
     # https://github.com/sigstore/cosign/releases/download/v1.13.1/cosign-windows-amd64.exe
     windows-amd64: sha256:78a2774b68b995cc698944f6c235b1c93dcb6d57593a58a565ee7a56d64e4b85
+  '1.13.2':
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-darwin-amd64
+    darwin-amd64: sha256:5a77cf6f5411ac8038f3dd2eb96e54e879026f6038a5d6a385de2351e17f34ef
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-darwin-arm64
+    darwin-arm64: sha256:68703d61a1e8006e4ebef4222b82c1214df446795ff39cd081ca5d59384a5a60
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-linux-amd64
+    linux-amd64: sha256:9b0f52abb2e6d79529f37646e524a35a409dc811d2cdec7ef5be2dc5130489c0
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-linux-arm
+    linux-arm: sha256:34ef773930b1da3012969f6b9512b6fffa7d141fb1884f812197fbe6ffecb715
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-linux-arm64
+    linux-arm64: sha256:3c109b66788686dd81f3e445439215532a8bb3e14a54efb6b65382b0e3578f5e
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:3ae80a7f76b9112d292514a375b412d072c344dbabbf192044f311f335416404
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-linux-s390x
+    linux-s390x: sha256:a45a451cb1e985ec2450343dcd12a15ecbf2fe3924fc150ef5bb5ba63ea89dd4
+    # https://github.com/sigstore/cosign/releases/download/v1.13.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:f16868b69c85bba30cbaf023885398a2a258002baabb0709cce1d60491171765
+  '1.13.6':
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-darwin-amd64
+    darwin-amd64: sha256:368591ba2aa3e643ff484bb4966e639640efc530a730b8ce1abc692ec0a91ec4
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-darwin-arm64
+    darwin-arm64: sha256:d0001ca1ea7eeb8e987d6437d82356562811b1481297dab59d42b0e7f5e8db33
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-amd64
+    linux-amd64: sha256:7810559e2eb53d2a8011d01b3b1ed3dc1cfc33d2b04b973065768efc93c13bf9
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-arm
+    linux-arm: sha256:27386333b9a40d1276fbddc10a7c9a33c216e87de4f65c49ffba0ba03be99256
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-arm64
+    linux-arm64: sha256:746ac88ce1926ebb3ce3a685b82b0780f8693b0a2deffdbdba679573a3ce6528
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-ppc64le
+    linux-ppc64le: sha256:3ab15ec7d260097c08e40ddf433801d040636caecd1425599cf04ab3a786f653
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-riscv64
+    linux-riscv64: sha256:784c5889bce3207b52e63a1e2f5c8b2ac5c7567485d7009f626f327551bea2c9
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-linux-s390x
+    linux-s390x: sha256:34e03a4b37d71d3b56d7fd77412208f2ad3d3814a63d5ed0b34f059ff93bb0c1
+    # https://github.com/sigstore/cosign/releases/download/v1.13.6/cosign-windows-amd64.exe
+    windows-amd64: sha256:7798e5d89aa7785dfc19b0ff36e331bbf01121ca198014fd31bfc79bd90444b6
+  '2.0.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-darwin-amd64
+    darwin-amd64: sha256:d2c8fc0edb42a1e9745da1c43a2928cee044f3b8a1b8df64088a384c7e6f5b5d
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-darwin-arm64
+    darwin-arm64: sha256:9d7821e1c05da4b07513729cb00d1070c9a95332c66d90fa593ed77d8c72ca2a
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-amd64
+    linux-amd64: sha256:169a53594c437d53ffc401b911b7e70d453f5a2c1f96eb2a736f34f6356c4f2b
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-arm
+    linux-arm: sha256:189d56c9946decdaa272e1dccb47ae64009ea39ac0274cfea00507b9acb877c9
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-arm64
+    linux-arm64: sha256:8132cb2fb99a4c60ba8e03b079e12462c27073028a5d08c07ecda67284e0c88d
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:a5cf443c8c8ed108e302a664de3e2ead859bd600848ff56055372c171cd9fc71
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-linux-s390x
+    linux-s390x: sha256:b826cf75bf3918ac39c14ddf1fc7b0e1b152a85e62d55adde822ed7dd000f39d
+    # https://github.com/sigstore/cosign/releases/download/v2.0.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:e78e7464dc0eda1d6ec063ac2738f4d1418b19dd19f999aa37e1679d5d3af82e
+  '2.0.1':
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-darwin-amd64
+    darwin-amd64: sha256:a22da39c4e290d3ae5a2a882476daf84b46ac19acd0b01aac8e173d7f57b8eae
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-darwin-arm64
+    darwin-arm64: sha256:95774f0f8d0b1674606893e3837ecd3f01d65c0ea4a71409b089307ffd1f9bed
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-amd64
+    linux-amd64: sha256:924754b2e62f25683e3e74f90aa5e166944a0f0cf75b4196ee76cb2f487dd980
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-arm
+    linux-arm: sha256:06815f64ace0ff8e295e4feb9470fdda70b636e2e7f5893432221751bb432a2d
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-arm64
+    linux-arm64: sha256:4a8cd49518cc667bb16e6aaf9da291b647c38baffa462fd495043ae6762f6981
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:e595b0f8a641367aa18605a937e5993a90e921a62d7124449e714e96cae521bd
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-riscv64
+    linux-riscv64: sha256:6c441b9c6e85d26e3634def37227a607130085c3c1a31238cd4857d917026559
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-linux-s390x
+    linux-s390x: sha256:b1bdc8e545bd9aecedbaf8ead73ca63a5565da39b1b04ca720effa88042413a8
+    # https://github.com/sigstore/cosign/releases/download/v2.0.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:b34c778c91231d3626290e3d67bd2c7e0994cd846fcd80505fed4f9ce7b78a16
+  '2.0.2':
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-darwin-amd64
+    darwin-amd64: sha256:0f51cbe19a315b919e87042f0485331821722ecb7fce22cc1b880ed4833fc8b0
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-darwin-arm64
+    darwin-arm64: sha256:55242a52ebca43dfb133d0fe26e11546bfa4571addd6852d782c119d74deade1
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-amd64
+    linux-amd64: sha256:dc641173cbda29ba48580cdde3f80f7a734f3b558a25e5950a4b19f522678c70
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-arm
+    linux-arm: sha256:686ef6160889e84e5710505345b5b55cef0873907d0ef5954c837d9d647cf169
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-arm64
+    linux-arm64: sha256:517e96f9d036c4b77db01132cacdbef21e4266e9ad3a93e67773c590ba54e26f
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:7223cc4aeb105ba97419f9f69475f0d9a0c2a7b3bd62c4f1a642c602d7a2f734
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-riscv64
+    linux-riscv64: sha256:3f1b849f43f0adc4fd136776e4bb2c50e8129a9dffafe3cca8472f373c3c95d7
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-linux-s390x
+    linux-s390x: sha256:4b02d1633984341d6570b8f7d8772c51d6ae6e457a92a25172bd763dc9452524
+    # https://github.com/sigstore/cosign/releases/download/v2.0.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:782fcc768fca4dea9eb7464032de4b3e602f8d605b71bae686762e7622faa9ca
+  '2.1.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-darwin-amd64
+    darwin-amd64: sha256:7ba6cf7a02a203e1978464f09551164ccacb9aefcfef8d3ec73e67af46417a91
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-darwin-arm64
+    darwin-arm64: sha256:c8ddd323d6b714105e4b05b48beba6b4f57c552464aefd4691d018bff6b4c362
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-amd64
+    linux-amd64: sha256:c4fef1a4c7e49ce2006493b9aa894b28be247987959698b97de771c129cce8ea
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-arm
+    linux-arm: sha256:baa86b94b826a09e7e76121298236b2bf3b88dd62574bd9fb89e4bdf28014ea2
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-arm64
+    linux-arm64: sha256:f795a6903daadf764a5092599bfe6945cedd7656bef37884a3049ac1a529266c
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:e75c8c4e83be5354cea0e5014decb683139a6824983e356c2dfba67668abe6aa
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-riscv64
+    linux-riscv64: sha256:56874c5e1769c64962ffe02c96b8c2a287a0894b3ec1a43984c20bc469d3193b
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-linux-s390x
+    linux-s390x: sha256:28b723e90e17b99e5bc7c4742f26c768ba34f4af6f86674235fbb319fcd827b3
+    # https://github.com/sigstore/cosign/releases/download/v2.1.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:c34ac8208450bd81eed283e036ef324d76fe86b2de674ca357722ac2a9688fb5
   '2.1.1':
     # https://github.com/sigstore/cosign/releases/download/v2.1.1/cosign-darwin-amd64
     darwin-amd64: sha256:5b7b4db7dbd7c19ce89d24a484627dc96fadd2632b033fe9a1f8005c29dbe84e
@@ -355,3 +516,364 @@ cosign_checksums:
     linux-s390x: sha256:d9dd95e314724d7cca5852a73158644e275e6d9bf7006b5ebdaffebed98d7189
     # https://github.com/sigstore/cosign/releases/download/v2.5.0/cosign-windows-amd64.exe
     windows-amd64: sha256:2345667cbcf60767c1a6f678755cbb7465367761084e9d2cbb59ae0cc1a94437
+  '2.5.1':
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-darwin-amd64
+    darwin-amd64: sha256:4f66548db844c467b8dd75e94d74530f01e0e7e6ae9cd10994ff1377dc935572
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-darwin-arm64
+    darwin-arm64: sha256:62cb81ea728acb426efb9345a9b0fca0168d85c67631dd74792441daaa0cb71a
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-amd64
+    linux-amd64: sha256:d86013612a132b67a2b60bc4ae4a09dbb1cd7ddcb7491dfd54ef2cdb7cb9180c
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-arm
+    linux-arm: sha256:53edb3048e94feca309a724d5a07f8627d9c7a73141427e210e082c0a4ddded1
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-arm64
+    linux-arm64: sha256:8b0acceb2dcd64eb85a90a302acf585da8734c9cf518088f2b11354012d27091
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:2974db4930f2320d6a7792df86c542bf9f6910beb5dd8b46062a0a82dcdc7c4c
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-riscv64
+    linux-riscv64: sha256:cca27c79ffda01fe4758744d9dd9d457934f98845581f45f5cf53b71d6ffecd6
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-linux-s390x
+    linux-s390x: sha256:f9e715dd9d640f6c90a05c66b24d8189645b8680afe58e19b67959aa12bcab8f
+    # https://github.com/sigstore/cosign/releases/download/v2.5.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:7a2b09add2620ad618a224b7f4bd6adfa8baefa7526047c1fc0ec6c313d69cd6
+  '2.5.2':
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-amd64
+    darwin-amd64: sha256:0681abe20a482f4b9b3ed65b3debb8c6346591f2dc484b6bfa79609ff1318de4
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-darwin-arm64
+    darwin-arm64: sha256:51fdc6d8da8310d72df10065a52247b6bebfe990d4c946dd9f71e17588256011
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-amd64
+    linux-amd64: sha256:bcfeae05557a9f313ee4392d2f335d0ff69ebbfd232019e3736fb04999fe1734
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-arm
+    linux-arm: sha256:ecb5b9d8b6d7c8cec98363f0827456fa3207279e5f4690db6b4e6c77b10e45f9
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-arm64
+    linux-arm64: sha256:2cbcea1873ad76274c3f241ef175d204654e3aac3e73e6ec4504e5227015cb0a
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:ba51509d52e310cf00439ba637f61bce76056a7664a9caf1d7776cfc45a9350a
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-riscv64
+    linux-riscv64: sha256:2fc12aca8de1fcae090fa2e63bd6572c7a19fe4eb552f850d2f0b38d8a0dab52
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-linux-s390x
+    linux-s390x: sha256:f376527165f831e28bc0550be95e109594cbeac1b5336c09639338ecb67dcec8
+    # https://github.com/sigstore/cosign/releases/download/v2.5.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:fef1c4731da9112d4cf2f6d93ae2a1551c73116a4f73fab7b0c15b38e95ff688
+  '2.5.3':
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-amd64
+    darwin-amd64: sha256:172731b1c2575dd76069a87d4d17312fd027fe0947e45e4a9ba9b915877e0ed0
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-darwin-arm64
+    darwin-arm64: sha256:86e0cad94d0da4c0dab5e26672ede71447a08a0f0d8495b9381c117df27d7d09
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-amd64
+    linux-amd64: sha256:783b5d6c74105401c63946c68d9b2a4e1aab3c8abce043e06b8510b02b623ec9
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-arm
+    linux-arm: sha256:b0c64e0e736c2b50cf4a36e113ca98a638bc7e957678c39bab40b6feae9a543b
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-arm64
+    linux-arm64: sha256:bffabe4cf183122b7de3111257a863c99e7dc6cf1093bfd7bf961de1795589b8
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-ppc64le
+    linux-ppc64le: sha256:8f1bd4ed3eab4486b05aecda9864e927170de94af9f88d7ca22bb9ed6fb7ff9f
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-riscv64
+    linux-riscv64: sha256:465eb4d1b62806e974f6f91f012ae9e9e742ce81ac436aaefd8febd2bf8b84e0
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-linux-s390x
+    linux-s390x: sha256:026a2192031ad3881804b795280d8dc56c47efc6ae3b12e6f85ce0d0abc66344
+    # https://github.com/sigstore/cosign/releases/download/v2.5.3/cosign-windows-amd64.exe
+    windows-amd64: sha256:545d87e096cab55e213f25b6ec5c9a74c958f72d05182cee1cd53a4eb6c2e561
+  '2.6.0':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-darwin-amd64
+    darwin-amd64: sha256:83b0fb42bc265e62aef7de49f4979b7957c9b7320d362a9f20046b2f823330f3
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-darwin-arm64
+    darwin-arm64: sha256:dea5b83b8b375b99ac803c7bdb1f798963dbeb47789ceb72153202e7f20e8d07
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-amd64
+    linux-amd64: sha256:ea5c65f99425d6cfbb5c4b5de5dac035f14d09131c1a0ea7c7fc32eab39364f9
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-arm
+    linux-arm: sha256:641e05c21ce423cd263a49b1f9ffca58e2df022cb12020dcea63f8317c456950
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-arm64
+    linux-arm64: sha256:e09684650882fd721ed22b716ffc399ee11426cd4d1c9b4fec539cba8bf46b86
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-ppc64le
+    linux-ppc64le: sha256:bd9cc643ec8a517ca66b22221b830dc9d6064bd4f3b76579e4e28b6af5cfba5f
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-riscv64
+    linux-riscv64: sha256:17c8ff6a5dc48d3802b511c3eb7495da6142397ace28af9a1baa58fb34fad75c
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-linux-s390x
+    linux-s390x: sha256:7f7f042e7131950c658ff87079ac9080e7d64392915f06811f06a96238c242c1
+    # https://github.com/sigstore/cosign/releases/download/v2.6.0/cosign-windows-amd64.exe
+    windows-amd64: sha256:7beb4dd1e19a72c328bbf7c0d7342d744edbf5cbb082f227b2b76e04a21c16ef
+  '2.6.1':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-darwin-amd64
+    darwin-amd64: sha256:f1ed2787cc9648fd3c644fcb279e43f3f55da63b788d69a527aa14ad97ffdca1
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-darwin-arm64
+    darwin-arm64: sha256:54047052cf46f40a5c3c95a510db276e164ba77e096aea1ca1b733f770359689
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-amd64
+    linux-amd64: sha256:064954c5d8c7e3b28188eee5b1727b31c411550bc5fefd41aa672d3c761d103a
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-arm
+    linux-arm: sha256:8da897764b68ef2c6291a27244e7a274a09b98f80c9d1b6c5e81ef2e2e4eb9ec
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-arm64
+    linux-arm64: sha256:56a16480bdd56ec789abaa65924402f6b92c0041f06885995853c05567b76f34
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:be7eb8da1a65da0bbb61a115a7e13cf05b23379ee9769159974b8ad690d4f057
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-riscv64
+    linux-riscv64: sha256:a224cd6c5b8f8afb6236177466196acbae4ce67bd8e93a6ed62cd7088bd5b824
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-linux-s390x
+    linux-s390x: sha256:e80c9b2e91d0069d97a9069b05c47dca3f9e19b4652c4c7e6ca331d787ba0972
+    # https://github.com/sigstore/cosign/releases/download/v2.6.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:049026dae3246d6ea8201512ec3efce3aab0c7f1d338d52e26c525dd02b418a0
+  '2.6.2':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-darwin-amd64
+    darwin-amd64: sha256:ad5db28c48faf66984c48733cad66504cea316f8e833bb13ef13060a6dc45b13
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-darwin-arm64
+    darwin-arm64: sha256:c01df01bac51714322f17d6416798d8a7b9e903657c6a2f8f09b9aee5ba29f57
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-amd64
+    linux-amd64: sha256:d437b8f0d30f5dec169337607fcfa0238de1348503e175f1bb5b94330b1ee409
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-arm
+    linux-arm: sha256:aae4934df920b5155dc60ae5a8f53e5953300134e43016f3a55a19022f018177
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-arm64
+    linux-arm64: sha256:3dee37fce75fcf51b00b985dbc64df15c30cf35d9ca9c5cdbf3e8e867a22e43f
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:6e5e7412f84e2b2cb5e3817da7f511c61fc5de182bfc1b3c4e43fc9800bbbd04
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-riscv64
+    linux-riscv64: sha256:af50cf13c1ca77a9977b0d26eff196455758b6f33b5dbd2131934c0534992fd4
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-linux-s390x
+    linux-s390x: sha256:ce16f138638f2b6623394a829af2dfce5378e6be7c95a9a2431298f54259550e
+    # https://github.com/sigstore/cosign/releases/download/v2.6.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:dd6c61e510da627bcaed4cd9db844ec11cacd09826d814d89f7f68d40feb07be
+  '2.6.3':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-darwin-amd64
+    darwin-amd64: sha256:5715d61dd00a9b6dcb344de14910b434145855b7f82690b94183c553ac1b68be
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-darwin-arm64
+    darwin-arm64: sha256:ff497a698f125f3130b04f000b2cb0dd163bcaf00b5e776ef536035e6d0b3f3e
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-amd64
+    linux-amd64: sha256:7c78a7f2efc00088bd788a758db6e0928e79f3e0eb83eb5d3c499ed98da4c4f4
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-arm
+    linux-arm: sha256:db3827697154efd5045d433aa0fb751c609cd25d8d63d096debd963aa3450014
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-arm64
+    linux-arm64: sha256:b7c23659a50a59fd8eec44b87188e9062157d0c87796cac7b38727e5390c4917
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-ppc64le
+    linux-ppc64le: sha256:309894634fc5b4fa476c24e2c0c2910ab1aa985ef3169aef1bb8bc5403b501e9
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-riscv64
+    linux-riscv64: sha256:38f002dcb0e47411d2a64361f0a52a6389688aa365c235b5518b7f89b830b64f
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-linux-s390x
+    linux-s390x: sha256:0bc1ad66ffb11463038a1cbb5ec83f38f33d9ef0bcbf761772efffb9bd8315e3
+    # https://github.com/sigstore/cosign/releases/download/v2.6.3/cosign-windows-amd64.exe
+    windows-amd64: sha256:2264ea5867077b9e070161648e8c18544decac351f5f3a7edaea43c233ce2e36
+  '2.6.4':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-darwin-amd64
+    darwin-amd64: sha256:ec648fddfedf1dad59dff9fbab177284a618204e03126ea37a87ab3cec4e7cb1
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-darwin-arm64
+    darwin-arm64: sha256:b2987c1b55a1e2735c59ac5c3e140acbf7ba5c1ed0cc07dbbf1b85676595237e
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-amd64
+    linux-amd64: sha256:309779b0c4e409186b0a80daba99041fe2cf65a920ce645013901df6211895a9
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-arm
+    linux-arm: sha256:37f8c0e775d56d69a86a1cb3d82818feed3047f989faa99823c326ce151c4d33
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-arm64
+    linux-arm64: sha256:df408e5418129306fed7349ec46e27be0445d05c5127c07f435e9a566af67593
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-ppc64le
+    linux-ppc64le: sha256:fcbcc778ba1a56b24e13f1a668f68d0401b8a9af42c31f4a8baffb07a5929bce
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-riscv64
+    linux-riscv64: sha256:72211f4e268db6b7a19b669696b23fc5df9f0dcb1e4aea64b64c849c0c1c2fbc
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-linux-s390x
+    linux-s390x: sha256:0ba4b5b53f1f3ed761512d6021446e1cc1ab9a8d69512f4ccd0730ae3bd3d7c0
+    # https://github.com/sigstore/cosign/releases/download/v2.6.4/cosign-windows-amd64.exe
+    windows-amd64: sha256:561368261ef6bb532a112ac9f952a6e9fd227e2d970ed0c9186ef9ce8d37f639
+  '2.6.5':
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-darwin-amd64
+    darwin-amd64: sha256:0f8a1a70c81de9740a2b62e91307ff396ce54e7dd80568d42411bb2d9d44269c
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-darwin-arm64
+    darwin-arm64: sha256:4d41cc18f0563907c0c785b51db76e1d1af10db4422b605ba876b1758e1771ab
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-amd64
+    linux-amd64: sha256:c3b4f5410e608af03a5eb0aaac84a4313d8da131248e08ff1759ac70c79d1644
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-arm
+    linux-arm: sha256:5eeda8f80117783b03dcbaa7f74d0aeb52bd42218fa509274a0bf4c030802331
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-arm64
+    linux-arm64: sha256:426193b4c5da4d4d643e822f48fe0cc8a476ca1782a272704831f5a0cef716d7
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-ppc64le
+    linux-ppc64le: sha256:d2ec3eabfc87192cecc0affd2b607136ff8d1d2e015383480255993ae2507937
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-riscv64
+    linux-riscv64: sha256:8dca5f94e74ef3cc5a1da32c2cf4dfd41cbb4104393ddc5f6abd268291865a8d
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-linux-s390x
+    linux-s390x: sha256:6448f1e5dff9274aac2125036ee932a03db744cb5a0199f18c8fbd7faa421bdb
+    # https://github.com/sigstore/cosign/releases/download/v2.6.5/cosign-windows-amd64.exe
+    windows-amd64: sha256:19ec346d0050f59ffad9694da97ef9704be34ec60ddc41c5f1d16d8619385825
+  '3.0.1':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-darwin-amd64
+    darwin-amd64: sha256:260c174b80d6401a7d2703109eb32f6a0bdbddd2ac91d3268dc96a51238d96ab
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-darwin-arm64
+    darwin-arm64: sha256:dad2a161d91fba199d1ebae7e5652a4c2dd412cbb1ab6b4cc8ad6a15378319fe
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-amd64
+    linux-amd64: sha256:23c9ff889672f03676b673539de07d5ad4e8efc8247a3ad55c9bc00169aa2305
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-arm
+    linux-arm: sha256:0adab06dd7c86db73ba98610dfc0e6c1282fa4f90977ae49d82e644c112bc258
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-arm64
+    linux-arm64: sha256:8f5bb6899118d521d7b12252f06d5808fba4e6cb0a23ff120ed6c14d7c87863a
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:82ed1e2c4b37927fc39c488dd1871f2a51ea40140a8c7911ed90026b8d8bf2cd
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-riscv64
+    linux-riscv64: sha256:07b7ce941bf9918bf245153bf029d53873f4f0b1bc5e8f9141876b3523c1de0b
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-linux-s390x
+    linux-s390x: sha256:6e30ae5e33014197a888b9492728e49aaf72343e31e26da8f7b3720518e8f6df
+    # https://github.com/sigstore/cosign/releases/download/v3.0.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:21843dbb2e910097531ca23e9f87d0ca2ae9a412e056009eae670b090418e8ed
+  '3.0.2':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-darwin-amd64
+    darwin-amd64: sha256:0fc2b6f16b900abdfda3153b11fc435a8cbe3830e8e820fe8ad5fe4149a5b472
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-darwin-arm64
+    darwin-arm64: sha256:3823b044de184da21e300bc5e20dd29d3fa9243af3ba70c4a5da1712f3385d46
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-amd64
+    linux-amd64: sha256:46dbdcb5467a3dfec2526923d0b3365e40c8d9dc00ec23d5aca3437449e8cbfd
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-arm
+    linux-arm: sha256:067df248315ee0c4af1cedb1cce65ad826f784be11ef88afd8d36e87c07162b6
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-arm64
+    linux-arm64: sha256:17fd784737ca54d7d8a343c82da6c5d6dbdee971e66644d923d1b057fb97d7ed
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:650aefe9d2bf0ee5282e8e40a7fc93ef6d66ef718a83ac3c3ec06b22b797ff00
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-riscv64
+    linux-riscv64: sha256:0ffd9125ada732d3d3f0f1702fefd8031c04383d070cda895c5df2dfaca6e7b8
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-linux-s390x
+    linux-s390x: sha256:f45331cfa5dfb6f908a5ed4f20f6fda4f31716028d6f0dcff9c775f006d486df
+    # https://github.com/sigstore/cosign/releases/download/v3.0.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:7a137280d8686665ceb4d8565df2a0ac63f28031e014cdcae5d56891a6c8a400
+  '3.0.3':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-darwin-amd64
+    darwin-amd64: sha256:6c75981e85e081a73f0b4087f58e0ad5fd4712c71b37fa0b6ad774c1f965bafa
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-darwin-arm64
+    darwin-arm64: sha256:38349e45a8bb0d1ed3a7affb8bdd2e9d597cee08b6800c395a926b4d9adb84d2
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-amd64
+    linux-amd64: sha256:052363a0e23e2e7ed53641351b8b420918e7e08f9c1d8a42a3dd3877a78a2e10
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-arm
+    linux-arm: sha256:8ec0385ec4d088cb26c40eacf0fd1c3f8b52d76fdd601cab9a371dcedc1a59fc
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-arm64
+    linux-arm64: sha256:81398231362031e3c7afd6a7508c57049460cd7e02736f1ebe89a452102253e5
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-ppc64le
+    linux-ppc64le: sha256:6af9ed378d289ffd1bce9b6de02a47a25f9bf32d01a2f6b0f43f0fbb544f14c6
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-riscv64
+    linux-riscv64: sha256:86bbb2c0da0a80107fbe6d500da4148c3f84fa2595f76db68d4499664da2b90d
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-linux-s390x
+    linux-s390x: sha256:e8cda1bb6b6719e46fe72a89789852971a228d364063cc961d065c3cd4e3db4b
+    # https://github.com/sigstore/cosign/releases/download/v3.0.3/cosign-windows-amd64.exe
+    windows-amd64: sha256:2593655025b52b5b1c99e43464459b645a3acbe5d4a5a9f3a766e77beec5a441
+  '3.0.4':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-darwin-amd64
+    darwin-amd64: sha256:4dbafca16d29be06a6a740d517a9f63de67c78be3a64d048e42520401d88facc
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-darwin-arm64
+    darwin-arm64: sha256:7098c46809c0818d970e63f7acd10f44c6919d3b4a261a63972a60694a9c9f66
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-amd64
+    linux-amd64: sha256:10dab2fd2170b5aa0d5c0673a9a2793304960220b314f6a873bf39c2f08287aa
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-arm
+    linux-arm: sha256:fddd545d3f7b11ad611d011daa3ffa77a469dc58635b3da5500efff8c89b7d52
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-arm64
+    linux-arm64: sha256:c12fc6150195758ec0b1aeb1aade3381a1d3a299584982b66543f22bab04535b
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-ppc64le
+    linux-ppc64le: sha256:784dc5461a588dd8611e7969a4c988620f08bcb7f173beb77321b7acfc9a2b5f
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-riscv64
+    linux-riscv64: sha256:9ec0c4ec477aaed0dbf6d3a294405441b2cc93fff0d23482eba5c2e84af5aba4
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-linux-s390x
+    linux-s390x: sha256:0516fe2ea7d3c039cb6ed99aefbd86b69d661ff35956484c16fb480c29f3897d
+    # https://github.com/sigstore/cosign/releases/download/v3.0.4/cosign-windows-amd64.exe
+    windows-amd64: sha256:a3a0dc4e8c745f9bd855ec18db346538b78ab2c4d6d510ae4186bb4a03f35438
+  '3.0.5':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-darwin-amd64
+    darwin-amd64: sha256:e032c44d3f7c247bbb2966b41239f88ffba002497a4516358d327ad5693c386f
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-darwin-arm64
+    darwin-arm64: sha256:4888c898e2901521a6bd4cf4f0383c9465588a6a46ecd2465ad34faf13f09eb7
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-amd64
+    linux-amd64: sha256:db15cc99e6e4837daabab023742aaddc3841ce57f193d11b7c3e06c8003642b2
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-arm
+    linux-arm: sha256:4866f388e87125f1f492231dbbb347bb73b601c810595b65b2ae09eae4c8a99d
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-arm64
+    linux-arm64: sha256:d098f3168ae4b3aa70b4ca78947329b953272b487727d1722cb3cb098a1a20ab
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-ppc64le
+    linux-ppc64le: sha256:ccd07709a25fd549dc3987eb378c4fecc1d7b851c904a59528cae8144f725c36
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-riscv64
+    linux-riscv64: sha256:9d108e72249dacb6ef5685320f34efcd0d85b842df90552b8fd7903a39a11c98
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-linux-s390x
+    linux-s390x: sha256:45ebd52e4cb3c1c5dc0661f76728fa9ee7a510ae211b0cde3c43e4d8bebade86
+    # https://github.com/sigstore/cosign/releases/download/v3.0.5/cosign-windows-amd64.exe
+    windows-amd64: sha256:44e9e44202b67ddfaaf5ea1234f5a265417960c4ae98c5b57c35bc40ba9dd714
+  '3.0.6':
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-darwin-amd64
+    darwin-amd64: sha256:4c3e7af8372d3ca3296e62fa56f23fcbb5721cc6ac1827900d398f110d7cd280
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-darwin-arm64
+    darwin-arm64: sha256:5fadd012ae6381a6a29ff86a7d39aa873878852f1073fc90b15995961ecfb084
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-amd64
+    linux-amd64: sha256:c956e5dfcac53d52bcf058360d579472f0c1d2d9b69f55209e256fe7783f4c74
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-arm
+    linux-arm: sha256:67bd25d32daff5664caf51208c95defcb2ad7ac1296f394fa677bb8bacee62f5
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-arm64
+    linux-arm64: sha256:bedac92e8c3729864e13d4a17048007cfafa79d5deca993a43a90ffe018ef2b8
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-ppc64le
+    linux-ppc64le: sha256:08c3e5e0a09c440f49e9a69d8639d37fbec522ec8c5c0ac805243b098e6ea512
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-riscv64
+    linux-riscv64: sha256:e25952e798958b0f9168d044153ccc353f5469ca4b71a1707dffad0534d27017
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-linux-s390x
+    linux-s390x: sha256:3cf4b769258ed9cc3c2a93268c0d5c1cc3fbd094af8df21035cbac8fb0d7c088
+    # https://github.com/sigstore/cosign/releases/download/v3.0.6/cosign-windows-amd64.exe
+    windows-amd64: sha256:9b85a88ebff2d9dd30ff4984a6f61f2cedc232dd87d81fa7f2ff3c0ed96c241c
+  '3.1.1':
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-amd64
+    darwin-amd64: sha256:14d2678dfbfde18798151e86fbd91ebdadbb7424b18412a42a155dd8a2df4c7a
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-darwin-arm64
+    darwin-arm64: sha256:94b42a9e697be95675f6160ab031a9a5f1ec1e646d6f648d7b2f5cd59ececbc5
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-amd64
+    linux-amd64: sha256:ae1ecd212663f3693ad9edf8b1a183900c9a52d3155ba6e354237f9a0f6463fc
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-arm
+    linux-arm: sha256:7a42f9eafc332b49f35f7ccf9959ba91a7a90fc010af2afacefc139259220d23
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-arm64
+    linux-arm64: sha256:2ec865872e331c32fd12b08dae15332d3f92c0aa029219589684a4903ca85d11
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-ppc64le
+    linux-ppc64le: sha256:1ec2d971b211da1d4bac2795c61d4041fb663d93fd98ebc2b87bdc0f067f547b
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-riscv64
+    linux-riscv64: sha256:da91851b82d29e097385bc21cb2f2e449e284d7dae974e640d1f78ca0c33e722
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-linux-s390x
+    linux-s390x: sha256:15433f2ac5f5be60e51538bce1f07c13b80f7b5ed474a247fd2159f7705dd871
+    # https://github.com/sigstore/cosign/releases/download/v3.1.1/cosign-windows-amd64.exe
+    windows-amd64: sha256:9d2c026e667bfd979fa7ba1cab8c4b24d2e73f336ec2d57f7fc72c7e73e5b4b6
+  '3.1.2':
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-darwin-amd64
+    darwin-amd64: sha256:acd180f8b015be25240ca33abee8a1e564eb65cdf1a3cee4725456d2dceb7da6
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-darwin-arm64
+    darwin-arm64: sha256:dec1c3f802320b19c2fbcf2dc7bcfb3f258e1c181a046c23a1a074bdf932f10a
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-amd64
+    linux-amd64: sha256:f7622ed3cf22e55e1ae6377c080979ff77a22da9981c11df222a2e444991e7cf
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-arm
+    linux-arm: sha256:c70562b600489c602239d75fc2743bfeecc580155b842b30a5844a8a384d31e5
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-arm64
+    linux-arm64: sha256:90e7ae0b5dfd60f20816b52c012addf7fc055ebcc7bea4ce81c428ca8518c302
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-ppc64le
+    linux-ppc64le: sha256:c69f20a1d854f3b091b5a40b6d165a25686b8889fd103429aae758daf5f98e95
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-riscv64
+    linux-riscv64: sha256:637125434e5e8e7c150ca9808e7cfc836f2c4a457087b0628d5adeb584b8988d
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-linux-s390x
+    linux-s390x: sha256:f00b60739e13f63dc0846fc3d720d6d175584ae583158dcc4ca65b8e7db9d323
+    # https://github.com/sigstore/cosign/releases/download/v3.1.2/cosign-windows-amd64.exe
+    windows-amd64: sha256:fe4d621d7ae5e900ee62089837c00f996ae9acb82027d573d1d157b6ee875cb2
+  '3.1.3':
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-amd64
+    darwin-amd64: sha256:2347488e5d5b25336644024dfeca5601b190e91197a71a917bda44744aff106c
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-darwin-arm64
+    darwin-arm64: sha256:5cf948c2f4dfe59687bdd0b8523709067383e03982cc543475c8a7dc70e92a76
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-amd64
+    linux-amd64: sha256:4629c757b7618056f8ddd7e2625ae9fdd94c0372a65049520bc7d9df9efc7f71
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-arm
+    linux-arm: sha256:3275e61b43a45aa56a6242b49475d8a01874a07469c08fc32d027ba554996e4c
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-arm64
+    linux-arm64: sha256:c5d324e091826b0d7a78eb16fef316450b4eb9aaec045611c08ba06f5e73220a
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-ppc64le
+    linux-ppc64le: sha256:15619e924681c97e0fb4f79c0eb8ef5d29665a06fe6a25078500985aed79321b
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-riscv64
+    linux-riscv64: sha256:9736177c6be33e4493304fc34feb8aa29209d531b3d40142d7e2a40bbe2f542f
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-linux-s390x
+    linux-s390x: sha256:253b571ef9e1aef72ef56d74f464ef9fe5182dc83b1ab430bbffbc4c8e43e7fd
+    # https://github.com/sigstore/cosign/releases/download/v3.1.3/cosign-windows-amd64.exe
+    windows-amd64: sha256:9fe59be0eca1271873ce019061335eb1ac419b7059202e797828467ddabe33be
+  '3.1.4':
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-amd64
+    darwin-amd64: sha256:9d1e4abe2b6be279ed0d2ff706fde1ccd738747c834e3e6d44039c238867334f
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-darwin-arm64
+    darwin-arm64: sha256:9f9b8cd557cf2e5b3df3373a00baa005a86b02391e3e06dd0ce37b3a1533d3a4
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-amd64
+    linux-amd64: sha256:424e2c97d0b45fd7a6b608a87f090f35633f4c23ece5f092d48bba11aaf4bbfa
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm
+    linux-arm: sha256:09e77a313910cf5c4774508d85d017d9c60983f41bf657f83ecbd3892f7952cb
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-arm64
+    linux-arm64: sha256:ade83b7aac62e131cacfe96d958948b2150cc9efec46a570a2649b8e27dedad2
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-ppc64le
+    linux-ppc64le: sha256:0887fca23319ea017cc827e6a845ba83722a36bf9e932f35c747ca83c14cec49
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-riscv64
+    linux-riscv64: sha256:24f3865df0fd9b055827b888d56e13583112ac7d4c87b45967af1f0febf35455
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-linux-s390x
+    linux-s390x: sha256:777978d576af893a3daf1fcf3b0e9178cebcbc083a669f6125b6c97b8e1fe433
+    # https://github.com/sigstore/cosign/releases/download/v3.1.4/cosign-windows-amd64.exe
+    windows-amd64: sha256:cbe953787074611f1334cbf37dc1cf953995bb8c45398eb4fc7bb781d29c1f2a
