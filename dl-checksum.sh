@@ -57,5 +57,5 @@ dl_ver()
     done
 }
 
-if [ $# -eq 0 ]; then set -- 3.1.4; fi
+if [ $# -eq 0 ]; then set -- 3.1.6; fi
 for v in "$@"; do dl_ver "$v"; done
